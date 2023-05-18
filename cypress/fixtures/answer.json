@@ -1,0 +1,23 @@
+{
+  "data": {
+    "id": "chatcmpl-7Hd5JVAIuymvETqBtF2yn1ajTKoA4",
+    "object": "chat.completion",
+    "created": 1684436173,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+      "prompt_tokens": 23,
+      "completion_tokens": 78,
+      "total_tokens": 101
+    },
+    "choices": [
+      {
+        "message": {
+          "role": "assistant",
+          "content": "Potatoes are believed to have originated in the Andes region of South America, specifically in present-day Peru and Bolivia, where they were domesticated over 7,000 years ago. From there, they spread to other parts of the world through European colonization and trade. Today, they are cultivated in many countries around the world, including the United States, China, Russia, and India."
+        },
+        "finish_reason": "stop",
+        "index": 0
+      }
+    ]
+  }
+}

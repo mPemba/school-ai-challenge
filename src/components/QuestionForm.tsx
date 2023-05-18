@@ -31,10 +31,11 @@ const QuestionForm = () => {
           autoFocus
           className="w-2/3 h-full resize-none bg-transparent p-2 outline-none border-none"
           onChange={(e: any) => setContent(e.target.value)}
+          data-cy="question-form-text-area"
         />
         <div className="absolute right-8 bottom-10">
           <div className="flex space-x-3">
-            <button style={buttonStyles} className="font-bold py-2 px-4 rounded" type="submit">
+            <button data-cy="question-form-send-button" style={buttonStyles} className="font-bold py-2 px-4 rounded" type="submit">
               Send
             </button>
           </div>

@@ -14,7 +14,7 @@ const Layout = ({
   description = 'Chat App for SchoolAI Challenge',
   favicon = '/favicon.ico'
 }: Props) => (
-  <div className="font-basier-circle">
+  <div>
     <Head>
       <title>{title}</title>
       <meta name="description" content={description}></meta>
