@@ -19,4 +19,10 @@ Run the development server:
 
 `yarn dev`
 
+## Cypress tests
+
+To run Cypress tests you must first start the dev server. 
+
+In a new terminal window navigate to the project and run `yarn e2e:run`.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
