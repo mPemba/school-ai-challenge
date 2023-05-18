@@ -1,5 +1,11 @@
 import { useState } from 'react'
 import { useMessages } from '../utils/useQuestions'
+import { colors } from '../lib/colors'
+
+const buttonStyles = {
+  backgroundColor: colors.darkGreen,
+  color: colors.white
+}
 
 const QuestionForm = () => {
   const [content, setContent] = useState('')
@@ -23,12 +29,12 @@ const QuestionForm = () => {
           rows={3}
           value={content}
           autoFocus
-          className="w-2/3 h-full resize-none bg-transparent p-2"
+          className="w-2/3 h-full resize-none bg-transparent p-2 outline-none border-none"
           onChange={(e: any) => setContent(e.target.value)}
         />
         <div className="absolute right-8 bottom-10">
           <div className="flex space-x-3">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">
+            <button style={buttonStyles} className="font-bold py-2 px-4 rounded" type="submit">
               Send
             </button>
           </div>
