@@ -4,16 +4,14 @@ const AnswerList = () => {
   const { messages, isLoadingAnswer } = useMessages()
 
   return (
-    <div className="max-w-3xl mx-auto pt-8">
+    <div className="max-w-3xl mx-auto pt-8 overflow-y-scroll">
       {messages?.map((message, i) => {
         const isUser = message.role === 'user'
         if (message.role === 'system') return null
         return (
           <div
             id={`message-${i}`}
-            className={`flex mb-4 fade-up ${isUser ? 'justify-end' : 'justify-start'} ${
-              i === 1 ? 'max-w-md' : ''
-            }`}
+            className={`flex mb-4 fade-up ${isUser ? 'justify-end' : 'justify-start'}`}
             key={message.content}
           >
             <div
