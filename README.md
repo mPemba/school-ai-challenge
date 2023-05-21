@@ -1,11 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## IN PROGRESS 
-This code challenge is still in progress. Just wanted to get something sent over in the meantime.
+## Code Challenge for SchoolAI
 
-I've been able to connect to the OpenAI API and set up a basic chat. 
+I've been able to connect to the OpenAI API and set up a basic chat UI. 
 
-Haven't been able to figure out how to write a script to format the Alabama Language Arts Standards as local data file with embeddings.
+Haven't been able to figure out how to write a script to format the Alabama Language Arts Standards as local data file with embeddings. Still working on this part. 
 
 ## Getting Started
 
